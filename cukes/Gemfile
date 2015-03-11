@@ -1,0 +1,21 @@
+source 'https://rubygems.org'
+
+group :test do
+  gem 'gmail', '=0.4.0'
+  gem 'mime'
+  gem 'cucumber'
+  gem 'syck'
+  gem 'rspec', '~> 3.0.0'
+  gem 'poltergeist', '>= 1.5.1'
+  gem 'selenium-webdriver'
+  gem 'launchy'
+  gem 'rest-client'
+  gem 'write_xlsx'
+  gem 'faraday'
+  gem 'faraday_middleware'
+  gem 'pdf-reader'
+  gem 'yard-cucumber'
+  gem 'puppetdb-ruby'
+  gem 'roo'
+end
+
